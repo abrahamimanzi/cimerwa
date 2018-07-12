@@ -1,0 +1,519 @@
+/* Credit: http://www.templatemo.com */
+
+/* 
+Titanium Template 
+http://www.templatemo.com/preview/templatemo_372_titanium 
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #09F;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	background-color: #fff;
+	background-image: url(images/templatemo_header.png);
+	background-position: top;
+	background-repeat: repeat-x
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color:#555;
+	font-weight:400;
+	padding: 0;
+	margin: 0;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+h1 { font-size:32px; margin-bottom: 20px; }
+h2 { font-size:26px; margin-bottom: 20px; line-height: 28px }
+h3 { font-size:20px; margin-bottom: 20px; }
+h4 {
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+h5 { font-size:16px }
+h6 { font-size:14px }
+.header {
+	display: block;
+	font-size: 24px;
+	color: #555;
+	font-weight: bold;
+}
+
+
+.left { float: left }
+.right {
+	float: left
+}
+
+img { margin: 0; padding: 0}
+
+.img_border { background: #ede8e8; padding: 4px; border: 1px solid #dcd5d5 }
+
+.img_frame {
+	position: relative;
+	display: block;
+	padding: 7px;
+	visibility: inherit;
+}
+
+.img_frame span {
+	position: absolute;
+	top: -301px;
+	left: 1px;
+	z-index: 0
+}
+
+.img_frame img, .img_frame iframe {
+	position: absolute;
+	top: -2px;
+	left: 1px;
+	z-index: 10;
+	width: 100px;
+	height: 150px;
+}
+
+.img_frame_13 { width: 280px; height: 157px }
+.img_frame_13 span { background: url(images/templatemo_image_frame_13.png); width: 300px; height: 177px }
+
+.img_frame_14 {
+	width: 100px;
+	height: 150px
+}
+.img_frame_14 span { background: url(images/templatemo_image_frame_14.png); width: 217px; height: 122px }
+
+.img_frame_23 { width: 616px; height: 216px }
+.img_frame_23 span { background: url(images/templatemo_image_frame_23.png); width: 630px; height: 230px }
+
+.img_frame_12 {
+	width: 570px;
+	height: 245px
+}
+.img_frame_12 span {
+	background: url(images/templatemo_image_frame_12.png);
+	width: 465px;
+	height: 258px
+}
+
+.img_nom { display: block; margin-bottom: 15px }
+
+.img_fl { float: left; margin: 3px 15px 5px 0 }
+
+.img_fr { float: left; margin: 3px 0 5px 15px }
+
+a:link, a:visited { color: #dc8924; text-decoration: none}
+a:hover { color: #CC3300; text-decoration:underline }
+a:hover,a:active { outline:none }
+
+a.more, .submit_btn { clear: both; display: block; width: 80px; height: 24px; line-height: 24px; text-align: center; text-decoration: none; background: url(images/templatemo_button.png) no-repeat }
+
+.submit_btn { border: none; cursor: pointer }
+
+em { color: #555 }
+p {
+	margin: 3 3px 3;
+	font-size: 12px;
+	color: #EEE;
+	text-align: justify;
+	font-weight: normal;
+}
+
+
+.list_bullet { margin: 10px 0 10px 15px; padding: 0; list-style: none }
+.list_bullet li { color:#555; margin: 0 0 7px 0; padding: 0 0 0 20px; background: url(images/templatemo_bullet.png) no-repeat scroll 0 5px  }
+.list_bullet li a { color: #555; font-weight: normal; text-decoration: none }
+.list_bullet li a:hover { color: #555 }
+
+.col {
+	float: left;
+	margin: 0 10px 20px 10
+}
+.half {
+	width: 886px;
+	margin-bottom: 30px
+}
+.one_third { width: 300px }
+#content, .two-third {
+	width: 600px
+}
+#sidebar {
+	width: 550px
+}
+.one_fourth {
+	width: 598px;
+	text-align: left;
+}
+
+.clear { clear: both; display: block; }
+.h20 { height: 20px }
+.h40 { height: 40px }
+
+.no_bullet { margin: 0; padding: 0; list-style: none }
+.no_bullet li { margin: 0 0 20px 0; padding: 0 }
+a.header { display: block; font-weight: 700 }
+
+#templatemo_wrapper {
+	width: 1220px;
+	padding: 10 10px;
+	margin: 0 auto
+}
+
+#templatemo_header {
+	height: 120px;
+}
+
+#templatemo_menu {
+	height: 56px;
+}
+
+#templatemo_slider {
+	padding: 10px 5;
+	height: 20px;
+	margin-top: 10px;
+}
+
+#templatemo_main {
+	padding: 0px 0 0px;
+	text-align: left;
+}
+
+#templatemo_bottom_wrapper {
+	width: 100%;
+	border-top: 5px solid #f7f5f3;
+	background: #ebe7e4
+}
+
+#templatemo_bottom {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 20px 10px;
+}
+
+#templatemo_footer_wrapper {
+	width: 100%;
+	border-top: 5px solid #000;
+	background: #222222	
+}
+
+#templatemo_footer {
+	width: inherit;
+	margin: 0 auto;
+	padding: 5px 10px 5px;
+	color: #dc8924;
+}
+
+#site_title {
+	float: left;
+	margin-top: 5px;
+}
+#site_title a {
+	display: block;
+	font-size: 12px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	width: 900px;
+	height: 110px;
+	color: #acacac;
+	text-indent: 5px;
+	background: url(images/templatemo_logo.png) no-repeat top left
+}
+
+#templatemo_search { float: right; margin-top: 50px; width: 243px; height: 36px; background: url(images/templatemo_search.png) }
+#templatemo_search form {
+	margin: 0;
+	padding: 0;
+}
+
+#templatemo_search .txt_field {
+	float: left;
+	display: block;
+	height: 25px;
+	line-height: 16px;
+	width: 190px;
+	margin: 0px 5px 0px 0px;
+	color: #FFFFFF;
+	font-size: 12px;
+	padding: 5px 0px 5px 10px;
+	font-variant: normal;
+	border: none;
+	background: none;
+}
+
+#templatemo_search .sub_btn {
+	float: right;
+	display: block;
+	color: #fff;
+ 	height: 34px;
+	width: 36px;
+	font-size: 11px;
+	font-weight: 700;
+	line-height: 26px;
+	cursor: pointer;
+	border: none;
+	background: none;	
+}
+
+.post {
+	clear: left;
+	margin: 5 5 5px 5;
+	padding: 0 0 0px 10;
+	border-bottom: 0px solid #eee;
+	text-align: justify;
+	font-size: 5px;
+	font-style: italic;
+	color: #0099CC;
+}
+.post h2 {
+	font-size: 16px;
+	margin-bottom: 10px
+}
+.post_meta { margin-bottom: 30px; font-size: 9px; line-height: 10px }
+.post_meta span {
+	display: block;
+	float: left;
+	border-left: 1px solid #eee;
+	margin-right: 20px;
+	padding-left: 0px
+}
+.post .img_fl {
+	margin-right: 10px
+}
+.comment_list { margin: 0; padding: 0; list-style: none }
+.comment_list .comment_box { padding: 20px; border-bottom: 1px solid #efefef }
+.comment_list li { margin-bottom: 20px }
+.comment_list li ul { list-style: none; background: none }
+.comment_list li ul li { }
+.comment_list li ul li .comment_box { background: #efefef }
+.comment_content { float: right; width: 480px }
+.comment_list li ul li.depth_2 .comment_content  { width: 440px }
+.comment_list li ul li.depth_3 .comment_box { background: #ccc }
+.comment_list li ul li.depth_3 .comment_content  { width: 400px }
+
+
+#comment_form { margin-top: 40px }
+
+#comment_form textarea {
+	background:#ffffff none repeat fixed 0 0;
+	border: 1px solid #cccccc; 
+	display: block;
+	margin-top: 5px;
+	width: 360px; 
+	height: 150px;
+	padding: 5px; 
+	color: #555555; 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+#comment_form .form_row {
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+#comment_form form input {
+	margin-top: 5px;
+	padding: 5px;
+	width: 200px;
+	background:#fff none repeat fixed 0 0;
+	border: 1px solid #ccc;
+	color: #555555; 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+#comment_form .submit_btn {
+	display: block; width: 70px; height: 30px; line-height: 30px; padding: 0 8px; text-align: center; text-decoration: none; font-weight: bold;  background-color: #524239; border: 1px solid #2f2f2f; color: #fff; font-size:11px; cursor: pointer 
+}
+
+#gallery { margin: 0; padding: 0 }
+#gallery .gallery_box {	padding-bottom: 30px; margin-bottom: 30px }
+
+#contact_form { padding: 0; margin-bottom: 40px }
+#contact_form form { margin: 0px; padding: 0px; }
+
+#contact_form form .input_field { 
+	width: 400px; 
+	padding: 5px; 
+	color: #555555; 
+	background: #ffffff; 
+	border: 1px solid #cccccc; 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+#contact_form form label { display: block; width: 300px; margin-right: 12px; font-size: 11px }
+
+#contact_form form textarea { 
+	width: 400px; 
+	height: 160px; 
+	padding: 5px; 
+	color: #555555; 
+	background: #ffffff; 
+	border: 1px solid #cccccc; 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+#sidebar h3 { padding: 10px 0 10px 10px; height: 25px; background: url(images/templatemo_sidebar_title.png) top no-repeat }
+
+.sidebar_box { margin-bottom: 40px }
+.sidebar_box_content {
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+}
+
+.footer_gallery { margin: 0; padding:0; list-style: none }
+.footer_gallery li { margin: 0 10px 10px 0; padding: 0; display: block; float: left }
+
+.pagging { margin: 0 0 20px; padding: 0 }
+.pagging ul { margin: 0; padding: 0; list-style: none }
+.pagging ul li { margin: 0; padding: 0; display: inline }
+.pagging ul li a { float: left; display: block; color: #666; text-decoration: none; margin-right: 5px; padding: 5px 10px; background: #ebe7e4; border: 1px solid #d6d0cc}
+.pagging ul li a:hover { color: #fff; background: #cfccc9; }
+
+.no_margin_right { margin-right: 0 }
+.last_box { margin-bottom: 0; background: none }
+#templatemo_wrapper #templatemo_main table tr td strong {
+	font-size: 18px;
+}
+#templatemo_wrapper #templatemo_main table tr td pw {
+}
+#templatemo_wrapper #templatemo_main table tr td p {
+	text-align: left;
+	font-size: 13px;
+	font-weight: normal;
+	color: #000000;
+	font-style: normal;
+	font-family: arial;
+}
+strong {
+	font-weight: bold;
+	text-align: justify;
+	color: #000;
+}
+#templatemo_wrapper #templatemo_main table tr td strong {
+	font-family: arial;
+	font-size: 13px;
+	font-style: normal;
+	line-height: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #2E83C3;
+	text-align: left;
+	font-weight: bold;
+}
+.new {
+	color: #999;
+	overflow: scroll;
+	height: 253px;
+	width: 295px;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-family: arial;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 0px;
+}
+neww {
+	font-size: 12px;
+}
+new {
+	font-size: 10px;
+}
+#templatemo_wrapper #templatemo_header #site_title #apDiv4e {
+	font-size: 12px;
+}
+new1 {
+	font-size: 14px;
+}
+#templatemo_wrapper #templatemo_main table2 {
+	font-size: 14px;
+}
+#templatemo_wrapper #templatemo_main table tr td .sidebar_box_content p strong {
+	text-align: left;
+}
+#templatemo_wrapper #templatemo_main table tr td {
+	color: #000;
+	text-align: left;
+	font-size: 13px;
+	font-family: arial;
+}
+#templatemo_wrapper #templatemo_main table {
+	text-align: left;
+}
+#templatemo_wrapper #gallery2 #templatemo_bottom_wrapper3 #templatemo_bottom3 table tr td .new div #ContentPlaceHolderDefault_cp_content_LatestNews_3_Repeater1_lblTitle_0 {
+	font-size: 12px;
+}
+#templatemo_wrapper #templatemo_slider #templatemo_main #xtemplatemo_main2 #content .post ul {
+	font-size: 12px;
+}
+new1 {
+	font-size: 12px;
+}
+newone {
+	font-size: 14px;
+}
+.one {
+	font-weight: bold;
+}
+#templatemo_wrapper #templatemo_slider #templatemo_main #templatemo_main2 table tr td p {
+	font-size: 13px;
+	color: #0275BD;
+	font-family: arial;
+	font-weight: normal;
+}
+#templatemo_wrapper #templatemo_slider #templatemo_main #templatemo_main2 table tr td q {
+	font-size: 12px;
+}
+#templatemo_wrapper #templatemo_slider #templatemo_main #templatemo_main2 table tr td .post ul {
+	font-size: 13px;
+}
+#templatemo_wrapper #templatemo_slider #templatemo_main #templatemo_main2 table tr td .post .more {
+	color: #181818;
+}
+.newone {
+	font-size: 13px;
+}
+.newtwo {
+	color: #040404;
+}
+.now {
+	font-style: normal;
+	font-size: 15px;
+}
+noww {
+	font-style: italic;
+}
+new {
+	font-style: normal;
+}
+.notitalic {
+	font-style: normal;
+}
+#templatemo_wrapper #templatemo_slider #templatemo_main #templatemo_main2 table tr td .post p {
+	font-size: 12px;
+}
+.b1 {
+	font-size: 14px;
+}
+#templatemo_wrapper #templatemo_slider #templatemo_main #templatemo_main2 #templatemo_bottom3 #gallery2 #templatemo_bottom_wrapper3 #templatemo_bottom4 table tr td #CollapsiblePanel1 .CollapsiblePanelContent ul {
+	font-size: 13px;
+}
+newtext {
+	color: #000;
+}
+#templatemo_wrapper #templatemo_slider #templatemo_main #templatemo_main2 div table tr .new .now {
+	font-size: 13px;
+}
+#templatemo_wrapper #templatemo_slider #templatemo_main #templatemo_main2 #templatemo_bottom3 #gallery2 #templatemo_bottom_wrapper3 #templatemo_bottom4 table tr td #CollapsiblePanel1 .CollapsiblePanelContent {
+	color: #000;
+}
+#templatemo_wrapper #templatemo_slider #templatemo_main #templatemo_bottom_wrapper3 #templatemo_bottom3 table tr td p strong strong a {
+	color: #2E83C3;
+	font-size: 13px;
+}
+#templatemo_wrapper #templatemo_slider #templatemo_main #templatemo_bottom_wrapper3 #templatemo_bottom3 table tr .a1 p strong a strong {
+	font-size: 13px;
+}
